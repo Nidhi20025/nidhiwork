@@ -1,108 +1,118 @@
 <!doctype html>
-
-<!--    Root Element (tag)   -->
-
 <html>
-<head>
-<title>My Profile</title>
-<!-- Block Level Tag --> 
-<header>
-
-
-<img src="images/pf6.png" width="20%">
-	<h1>Nishant Profile </h1>
-
-
-
-
-
-</header>
-
-
-
-</head>
-<!-- Doing  css -->
+<head> <title>Home</title></head>
 <style>
 header
 {
-color:#0db353;
-background:yellow;
-width:50%;
-margin:auto;
+display:flex;
+background:white;
+//height:130px;
+margin:0px;
+color:teal;
+font-size:40px;
+padding:20px;
 text-align:center;
-font-size:10px;
-padding:3px;
-box-shadow:10px 10px 20px gray;
+margin:auto;
+border:1px black solid;
+box-shadow:10px 10px 10px gray;
 }
-#about
+.pic
+{
+width:130px;
+height:130px;
+border-radius:30px;
+}
+.col1
+{
+width:20%;
+//background:red;
+height:200px;
+}
+.col2
+{
+box-sizing:border-box;
+width:80%;
+//background:yellow;
+height:200px;
+padding-top:70px;
+}
+
+nav
+{
+
+background:yellow;
+width:70%;
+height:30px;
+margin:auto;
+margin-top:50px;
+padding:10px;
+box-shadow:10px 10px 10px gray;
+text-align:center;
+}
+
+
+.data
 {
 border:1px black solid;
-width:70%;
-margin:auto;
-padding:20px;
+padding:40px;
+font-size:15px;
+color:gray;
 border-radius:10px;
-box-shadow:10px 10px 10px gray;
-
-
 }
-
-#menu
+.data:hover
 {
-background:teal;
-text-align:center;
-padding:10px;
-border-radius:10px;
-width:50%;
-margin:auto;
-margin-top:20px;
+cursor:pointer;
+transition:2s;
+color:black;
 }
 
-#menu ol li
-{
-list-style:none;
-display:inline;
-}
 
 </style>
 
 <body>
-<div id="menu">
-<ol>
-<a href="index.html">
-<li>Home</li>
-</a>
 
-<a href="practice.html">
-<li >Practice Pages</li>
-</a>
+<header>
+<div class="col1">
+<img src="images/pf1.jpg" class="pic" title="Somil Prodile Pic">
+</div>
+
+<div class="col2">
+Somil Profile<br/>
+<span style="background:rd;width:500px;font-size:20px;">Graphic designer</span>
+</div>
+
+</header>
+<nav>
+<a href="practice.html">Practice Pages</a>
+<a href="https://youtu.be/uEEa3eG5Ut8">My Channel</a>
+</nav>
 
 
-<li>Photo Gallery</li>
-<li>IFrames</li>
-<li>Table</li>
-<li>Form</li>
-</ol>
+
+
+
+
+<h2>About me </h2>
+<div class="data">
+<p>
+What is Lorem Ipsum?
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumWhat is Lorem Ipsum?
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+
+</p>
 
 </div>
 
 
+<footer>
 
-<h3>About me </h3>
-
-<div id="about">
-
-
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-
-
-</div>
+</footer>
 
 
 </body>
 
 </html>
+
